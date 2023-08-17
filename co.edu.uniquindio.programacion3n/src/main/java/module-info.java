@@ -1,8 +1,8 @@
-module com.example.programacion3 {
+module com.example.tallerprogranocturna {
     requires javafx.controls;
     requires javafx.fxml;
-
-
-    opens com.example.programacion3 to javafx.fxml;
-    exports com.example.programacion3;
+            
+                            
+    opens com.example.tallerprogranocturna to javafx.fxml;
+    exports com.example.tallerprogranocturna;
 }
